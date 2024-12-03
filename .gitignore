@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.pytest_cache/
+
+# Pyenv files
+.python-version
+
+# dotenv environment variable files
+.env
+.env.*
+!example.env
+
+# Pytest
+.cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# Test artifacts
+*.log
+*.pot
+*.sqlite3
+*.pyre-check/
+
+# FastAPI-specific
+logs/
+*.log
+*.pid
+*.db
+
+# IDEs
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
